@@ -61,7 +61,7 @@ public List<HashMap<String,String>> getJsonDataToMap() throws IOException {
 	}
 	@AfterMethod
 	public void tearDown() {
-		driver.close();
+		driver.quit();
 	}
 
 }
